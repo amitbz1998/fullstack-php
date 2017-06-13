@@ -1,0 +1,254 @@
+body{
+   font-family: 'Open Sans', sans-serif;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+#cv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+#profile {
+    background: #1c1c1c;
+    color: #a5a5a5;
+    padding: 25px;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+#intro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+}
+
+#intro header {
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+#intro header h1 {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+#intro header h2 {
+    font-weight: 600;
+    color: #d07628;
+    font-size: 40px;
+}
+
+#intro header h3 {
+    color: #fff;
+    font-weight: 400;
+}
+
+#about {
+    border-left: 1px solid #a5a5a5;
+    padding: 15px;
+    width: 350px;
+    margin-bottom: 10px;
+
+}
+
+#contact-info {
+    display: flex;
+}
+
+#contact-info ul {
+    list-style: none;
+}
+
+#contact-info ul:first-child {
+    font-weight: 600;
+    padding: 0;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#social-networks a {
+    color: #fff;
+    text-decoration: none;
+}
+#experience-skills{
+    
+    display: flex;
+}
+
+#experience-skills h1{ 
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+#experience-skills ul{
+    list-style: none;
+ }
+
+#experience-titles h2{
+    color: #0e8dc0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#experience-titles h5{
+    color: #babbbc;
+    font-size: 12px;
+    margin-bottom: 25px
+}
+
+ #experience-text h6
+{
+    font-size: 13px;
+}
+
+#experience-text div
+{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #babbbc;
+    margin-bottom: 25px;
+    padding-right: 25px;
+}
+#skills{
+    width: 750px;
+   display: grid
+    
+}
+#pro-skills{
+    align-items: center;
+    display: grid;
+    background: #6ed0f5;
+}
+#skills h1{
+        text-align: center;
+
+    font-size: 20px;
+    
+}
+
+#pro-skills ul:nth-child(1){
+font-weight: 600;
+}
+
+#pro-skills ul:nth-child(2){
+padding-left: 15px;
+}
+
+#per-skills{
+    align-items: center;
+    display: grid;
+    background: #eddc46;
+}
+#per-skills ul:nth-child(1){
+    font-weight: 600;
+}
+
+#per-skills ul:nth-child(2){
+    padding-left: 15px;
+}
+
+#aa,#bb{
+    display: flex;
+}
+
+#education-skills{
+    align-items: center;
+    display: flex;
+    background: #ececec;
+}
+
+#education-skills h1{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+#education-skills ul{
+    list-style: none;
+ }
+
+#education-titles h2{
+    color: #0e8dc0;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#education-titles h5{
+    color: #babbbc;
+    font-size: 12px;
+    margin-bottom: 25px
+}
+
+ #education-text h6
+{
+    font-size: 13px;
+}
+
+#education-text div
+{
+    padding-right: 150px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #babbac;
+    margin-bottom: 25px
+}
+#hobies-icons {
+    width: 535px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#hobies{
+
+    display: flex;
+}
+#hobies-icons{
+    align-items: center;
+    
+}
+
+
+#language{ 
+
+    width: 750px;
+    align-items: center;
+    display: flex;
+    background: #f0eeef;
+}
+#language ul:nth-child(1){
+    font-weight: 600;
+    list-style: none;
+}
+
+#language ul:nth-child(2){
+    padding-left: 30px;
+    list-style: none;
+}
+
+#hobies-template h1{
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 10px;
+}
